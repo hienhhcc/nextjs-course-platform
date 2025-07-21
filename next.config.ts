@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   experimental: {
     authInterrupts: true,
-    dynamicIO: true,
+    cacheComponents: true,
   },
 };
 
